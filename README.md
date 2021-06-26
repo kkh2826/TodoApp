@@ -6,7 +6,9 @@
 - venv\Scripts\activate (가상환경 실행)
 - python -m pip install --upgrade pip (pip 명령어 upgrade 실시)
 - pip install -r requirements.txt (install 요소들 설치)
-- python manage.py makemigrations / python manage.py migrate 실행 (DB 초기화)
+- python manage.py makemigrations
+- python manage.py migarte --run-syncdb (DB 동기화)
+- python manage.py load db.json (TEST DUMP DATA 입력시키기)
 
 ##### FrontEnd 설정
 - venv\Scripts\activate (가상환경 실행)
